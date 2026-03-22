@@ -1,0 +1,21 @@
+{
+  "name": "ues_audio_quality_manager",
+  "version": "1.0.0",
+  "description": "You have a private collection of music in high-quality formats (FLAC, WAV) and other compressed ones. This project, based on Software Development Patterns, organizes your library, identifies the file quality, and applies specific audio settings without overloading the system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ingetista/UES_Audio_Quality_Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ingetista/UES_Audio_Quality_Manager/issues"
+  },
+  "homepage": "https://github.com/Ingetista/UES_Audio_Quality_Manager#readme"
+}
