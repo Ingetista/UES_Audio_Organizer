@@ -5,7 +5,7 @@ const AudioFactory = require('./patterns/AudioFactory');
 const { 
     FormatOrganizationStrategy, 
     SizeOrganizationStrategy 
-} = require('./patterns/OrganizationStrategy'); // Asegúrate que el nombre del archivo coincida
+} = require('./patterns/OrganizationStrategy'); 
 
 class LibraryManager {
     constructor(folderPath) {
@@ -67,7 +67,7 @@ miOrganizador.setStrategy(new FormatOrganizationStrategy());
 miOrganizador.escanearYProcesar();
 
 
-/* Para probar la otra estrategia de organización remplazar las dos líneas anteriores por: 
+/* Para probar la otra estrategia de organización, remplazar las dos líneas anteriores por: 
 
 miOrganizador.setStrategy(new SizeOrganizationStrategy());
 miOrganizador.escanearYProcesar();

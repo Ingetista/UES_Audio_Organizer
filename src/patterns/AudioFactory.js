@@ -4,7 +4,7 @@ La función de AudioFactory es actuar como un selector inteligente.
 Evita tener que usar New para cada tipo de archivo de audio. 
 En su lugar, simplemente le das el nombre del archivo y la fábrica se encarga de crear la instancia correcta (FLAC o MP3) 
 según la extensión del archivo. Esto hace que el código sea más limpio y fácil de mantener, 
-especialmente si en el futuro quieres agregar más formatos de audio.
+especialmente si en el futuro se quieren agregar más formatos de audio.
 */
 
 // src/patterns/AudioFactory.js
